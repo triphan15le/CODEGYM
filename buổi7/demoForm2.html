@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet ID</title>
+</head>
+<body>
+    <h1>Pet Registration</h1>
+    <form action="#">
+        <fieldset>
+            <legend>General Inforrmation</legend>
+            Name: <input type="text" name="petName"><br>
+            Date of Birth: <input type="date" name="petDateOfBirrth"><br>
+            Weight: <input type="number" name="petWeight" min="0"><br>
+            Owner Email: <input type="email" name="petOwnerEmail" >
+        </fieldset>
+        
+        <fieldset>
+            <legend>Detail Information</legend>
+            Fur Color:
+            <input type="radio" name="prtFurColor" value="white"> White
+            <input type="radio" name="prtFurColor" value="black"> black
+            <input type="radio" name="prtFurColor" value="yellow"> yellow
+
+            <br>
+
+            Favorite things:
+            <input type="checkbox" name="petFavoriteThings" value="milk">Milk
+            <input type="checkbox" name="petFavoriteThings" value="playing">playing
+            <input type="checkbox" name="petFavoriteThings" value="walking">walking
+
+            <br>
+            
+            Species:
+            <select name="petSpecies">
+                <option value="Abyssinian Cat">Abyssinian</option>
+                <option value="Abyssinian Cat">Abyssinian</option>
+                <option value="Abyssinian Cat">Abyssinian</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Information</legend>
+            pet Photo: <input type="file" name="" id="">
+            <br>
+            Note: <textarea name="petNote"  cols="30" rows="10"></textarea>
+
+        </fieldset>
+    </form>
+
+    <h2>Registered Pets</h2>
+    <table>
+        <tr>
+            <th>No.</th>
+            <th>Pet Name</th>
+            <th>Registration Date</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Lucky</td>
+            <td>12/11/2022</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Smile</td>
+            <td>12/11/2022</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Kitt</td>
+            <td>12/11/2022</td>
+        </tr>
+    </table>
+</body>
+</html>
